@@ -1,0 +1,8 @@
+server:
+  port: 8082
+
+feign:
+  theater-service:
+    url: "http://localhost:8081"
+  hotel-service:
+    url: "http://localhost:8080"

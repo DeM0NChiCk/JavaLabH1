@@ -1,0 +1,7 @@
+### Все отели и кинотеатры
+
+GET http://localhost:8082/info?page=0
+
+### Отели и кинотеатры в конкретном городе
+
+GET http://localhost:8082/info-by-city?city=Казань&page=0
