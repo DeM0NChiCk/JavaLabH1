@@ -18,4 +18,4 @@ Content-Type: application/json
 
 ### Получение списка отелей по городу
 
-GET localhost:8080/api/hotels?api-key=hotel-api-key&city=Москва
+GET localhost:8080/api/hotels/city?api-key=hotel-api-key&city=Москва

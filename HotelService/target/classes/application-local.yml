@@ -20,3 +20,6 @@ app:
   api:
     authentication:
       key: ${API_KEY}
+
+server:
+  port: 8080
