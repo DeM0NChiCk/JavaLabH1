@@ -1,0 +1,21 @@
+### Получение списка отелей
+
+GET localhost:8080/api/theaters?api-key=theater-api-key&page=0
+
+### Получение одного отеля
+
+GET localhost:8080/api/theaters/1?api-key=theater-api-key
+
+### Добавление нового отеля
+
+POST localhost:8080/api/theaters?api-key=theater-api-key
+Content-Type: application/json
+
+{
+  "title": "Большой театр",
+  "city": "Москва"
+}
+
+### Получение списка отелей по городу
+
+GET localhost:8080/api/theaters/city?api-key=theater-api-key&city=Москва
