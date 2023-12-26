@@ -80,7 +80,7 @@ public interface HotelsApi {
             )
     })
     @PostMapping
-    ResponseEntity<HotelDto> addTask(@RequestBody @Valid NewHotelDto newHotel);
+    ResponseEntity<HotelDto> addHotel(@RequestBody @Valid NewHotelDto newHotel);
 
     @Operation(summary = "Получение списка отелей по городу", description = "Доступно всем пользователям")
     @ApiResponses(value = {

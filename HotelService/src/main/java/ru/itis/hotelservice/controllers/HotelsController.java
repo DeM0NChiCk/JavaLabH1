@@ -29,7 +29,7 @@ public class HotelsController implements HotelsApi {
     }
 
     @Override
-    public ResponseEntity<HotelDto> addTask(NewHotelDto newHotel) {
+    public ResponseEntity<HotelDto> addHotel(NewHotelDto newHotel) {
         return ResponseEntity.status(201).body(hotelsService.addHotel(newHotel));
     }
 
